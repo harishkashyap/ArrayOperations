@@ -1,5 +1,5 @@
 <p align="center" >
-  <img src="https://raw.github.com/ArrayOperations/Resources/cover.png" alt="VoyaGenius" title="ArrayOperations">
+  <img src="https://github.com/VoyaGenius/ArrayOperations/blob/master/Resources/cover.png" alt="VoyaGenius" title="ArrayOperations">
 </p>
 
 # ArrayOperations
