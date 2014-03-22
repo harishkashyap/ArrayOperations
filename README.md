@@ -40,7 +40,7 @@ Follow VoyaGenius on Twitter ([@voyagenius](https://twitter.com/voyagenius))
 
 ### Maintainers
 
-- [Harish Kashyap](http://github.com/voyagenius) ([@hkashyap](http://twitter.com/harishkashyap))
+- [Harish Kashyap](http://github.com/voyagenius) ([@hkashyap](http://twitter.com/hkashyap))
 
 ## License
 
