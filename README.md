@@ -1,9 +1,10 @@
+<p align="center" >
+  <img src="https://raw.github.com/ArrayOperations/Resources/cover.png" alt="VoyaGenius" title="ArrayOperations">
+</p>
+
 # ArrayOperations
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/ArrayOperations/badge.png)](http://cocoadocs.org/docsets/ArrayOperations)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/ArrayOperations/badge.png)](http://cocoadocs.org/docsets/ArrayOperations)
-
-ArrayOperations is a missing method repository for performing various operations on NSMutableArrays. 
+ArrayOperations is an addition to existing NSMutableArray methods for performing various array operations. 
 
 ## Usage
 
