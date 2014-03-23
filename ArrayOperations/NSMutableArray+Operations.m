@@ -25,10 +25,6 @@
 @implementation NSMutableArray (Operations)
 
 - (NSArray *)duplicateObjects {
-    if (self == nil) {
-        return nil;
-    }
-    
     NSMutableDictionary *objectMap = [[NSMutableDictionary alloc] initWithCapacity:self.count];
     NSMutableArray *duplicateArray = [[NSMutableArray alloc] initWithCapacity:self.count];
     for (id Obj in self) {
@@ -42,10 +38,6 @@
 }
 
 - (void)shuffle {
-    if (self == nil) {
-        return;
-    }
-    
     NSInteger i = self.count - 1;
     while (i > 0) {
         NSInteger j = arc4random() % i;
@@ -55,10 +47,6 @@
 }
 
 - (void)swapObjectAtIndex:(NSUInteger)x withObjectAtIndex:(NSUInteger)y {
-    if (self == nil) {
-        return;
-    }
-    
     id objX, objY;
     
     objX = [self objectAtIndex:x];
@@ -74,9 +62,6 @@
 }
 
 - (NSArray *)removeDuplicates {
-    if (self == nil) {
-        return nil;
-    }
     NSSet *uniqueSet = [NSSet setWithArray:self];
     return [uniqueSet allObjects];
 }

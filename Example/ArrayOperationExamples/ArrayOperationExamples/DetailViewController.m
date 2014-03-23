@@ -46,13 +46,14 @@
     self.outputLabel.text = [NSString stringWithFormat:@"Output string -> %@",[self.resultObjects description]];
 }
 
+- (void)printSelf
+{
+    self.outputLabel.text = [NSString stringWithFormat:@"Output string -> %@",[self.objects description]];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    if (!_objects) {
-        _objects = [[NSMutableArray alloc] initWithObjects:@"First", @"Second", @"Third", @"Fourth", @"Fourth", @"Fifth", @"Sixth", @"Sixth", nil];
-    }
     if (!_resultObjects) {
         _resultObjects = [[NSMutableArray alloc] init];
     }
@@ -66,32 +67,34 @@
 
     switch (self.operation) {
         case 0:{
-            self.resultObjects = [self.objects shuffle];
+            [self.objects shuffle];
+            [self printSelf];
         }
             break;
         case 1:{
             [self.objects swapObjectAtIndex:1 withObjectAtIndex:3];
             self.resultObjects = self.objects;
+            [self printOutputLabel];
         }
             break;
         case 2:{
             self.resultObjects = [[self.objects removeDuplicates] mutableCopy];
+            [self printOutputLabel];
         }
             break;
         case 3:{
             self.resultObjects = [[self.objects duplicateObjects] mutableCopy];
+            [self printOutputLabel];
         }
             break;
         default:
             break;
     }
-    [self printOutputLabel];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

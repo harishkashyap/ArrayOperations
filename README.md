@@ -22,9 +22,9 @@ platform :ios, '7.0'
 pod "ArrayOperations", "~> 0.1.0"
 ```
 
-## 0.1.1
+## 0.1.2
 
-ArrayOperations 0.1.1 is the second release
+ArrayOperations 0.1.2 is the latest release
 
 ## Author
 

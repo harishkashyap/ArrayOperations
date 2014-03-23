@@ -1,5 +1,9 @@
 # ArrayOperations CHANGELOG
 
+## 0.1.2
+
+Removes nil check, redundancy.
+
 ## 0.1.1
 
 Added Documentation.
