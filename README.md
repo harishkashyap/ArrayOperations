@@ -1,7 +1,3 @@
-<p align="center" >
-  <img src="https://github.com/VoyaGenius/ArrayOperations/blob/master/Resources/cover.png" alt="VoyaGenius" title="ArrayOperations">
-</p>
-
 # ArrayOperations
 
 ArrayOperations is an addition to existing NSMutableArray methods for performing various array operations. 
@@ -26,9 +22,9 @@ platform :ios, '7.0'
 pod "ArrayOperations", "~> 0.1.0"
 ```
 
-## 0.1.0
+## 0.1.1
 
-ArrayOperations 0.1.0 is the first release.
+ArrayOperations 0.1.1 is the second release
 
 ## Author
 

@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "ArrayOperations"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Additions to NSMutableArray and NSArray Methods"
   s.homepage         = "https://github.com/VoyaGenius/ArrayOperations"
   s.license          = 'MIT'
   s.author           = { "Harish Kashyap" => "harish.k.kashyap@gmail.com" }
-  s.source           = { :git => "https://github.com/voyagenius/ArrayOperations.git", :tag => "0.1.0" }
+  s.source           = { :git => "https://github.com/voyagenius/ArrayOperations.git", :tag => "0.1.1" }
   s.social_media_url = 'https://twitter.com/voyagenius'
 
   # s.platform     = :ios, '7.0'
