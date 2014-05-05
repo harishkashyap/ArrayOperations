@@ -1,5 +1,9 @@
 # ArrayOperations CHANGELOG
 
+## 0.1.3
+
+Fixes swap object methods.
+
 ## 0.1.2
 
 Removes nil check, redundancy.

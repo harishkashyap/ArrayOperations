@@ -19,8 +19,11 @@ it simply add the following line to your Podfile:
 
 ```ruby
 platform :ios, '7.0'
-pod "ArrayOperations", "~> 0.1.0"
+pod "ArrayOperations", "~> 0.1.3"
 ```
+## 0.1.3
+
+Fixes Swap method.
 
 ## 0.1.2
 

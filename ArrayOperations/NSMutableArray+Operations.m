@@ -53,9 +53,6 @@
     objY = [self objectAtIndex:y];
     
     if (objX && objY) {
-        objX = [[self objectAtIndex:x] copy];
-        objY = [[self objectAtIndex:y] copy];
-        
         [self replaceObjectAtIndex:x withObject:objY];
         [self replaceObjectAtIndex:y withObject:objX];
     }

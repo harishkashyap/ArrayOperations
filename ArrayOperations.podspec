@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ArrayOperations"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "Additions to NSMutableArray and NSArray Methods"
   s.homepage         = "https://github.com/VoyaGenius/ArrayOperations"
   s.license          = 'MIT'
